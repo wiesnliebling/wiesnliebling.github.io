@@ -1,0 +1,170 @@
+<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/journal/bootstrap.min.css" rel="stylesheet" integrity="sha384-ciphE0NCAlD2/N6NUApXAN2dAs/vcSAOTzyE202jJx3oS8n4tAQezRgnlHqcJ59C" crossorigin="anonymous">
+
+.containercard
+ {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-item {
+  text-align: center;
+}
+.flex-item2 {
+  text-align: left;
+}
+
+#yellow {
+  justify-content: center;
+}
+
+#yellow > h2 {
+  margin: 0 !important;
+}
+#yellow > h3 {
+  margin-bottom: 2px !important;
+}
+#yellow > h3 {
+  margin-top: 5px !important;
+}
+
+#orange > p {
+  margin: 0 !important;
+}
+
+#pink > p {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1365px) {
+  /* For small screen: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  /* For laptops and desktops: */
+  .col-l-1 {
+    width: 8.33%;
+  }
+  .col-l-2 {
+    width: 16.66%;
+  }
+  .col-l-3 {
+    width: 25%;
+  }
+  .col-l-4 {
+    width: 33.33%;
+  }
+  .col-l-5 {
+    width: 41.66%;
+  }
+  .col-l-6 {
+    width: 50%;
+  }
+  .col-l-7 {
+    width: 58.33%;
+  }
+  .col-l-8 {
+    width: 66.66%;
+  }
+  .col-l-9 {
+    width: 75%;
+  }
+  .col-l-10 {
+    width: 83.33%;
+  }
+  .col-l-11 {
+    width: 91.66%;
+  }
+  .col-l-12 {
+    width: 100%;
+  }
+}CSS comment */
+
+#yellow {
+  border-radius: 15px;
+  background-color: yellow;
+}
+
+.blue {
+  border-radius: 15px;
+  background-color: skyblue;
+  margin: 25px;
+  padding: 50px;
+  color: white;
+}
+
+#orange {
+  border-radius: 15px;
+  background-color: pink;
+  margin: 5px;
+  padding: 15px;
+}
+.right {
+  flex-direction: column;
+}
+
+.skyblue {
+  border-radius: 50px;
+  background-color: skyblue;
+  margin: 50px;
+  padding: 50px;
+  color: white;
+  text-align:center
+}
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+height:100%;
+width:100%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
